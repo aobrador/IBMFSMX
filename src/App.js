@@ -28,7 +28,7 @@ const App = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route path={["/","/IBMFSMX"]}>
+          <Route path={["/IBMFSMX","/home"]}>
             <Home />
           </Route>
           <Route path='/about'>
