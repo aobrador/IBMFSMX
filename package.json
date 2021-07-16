@@ -1,23 +1,24 @@
 {
-  "homepage": "http://cwcoogan.github.io/IBMFSMX",
+  "homepage": "http://aobrador.github.io/IBMFSMX",
   "name": "ibmfsmx",
   "version": "1.0.0",
   "description": "IBM FSM X Project",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cwcoogan/IBMFSMX.git"
+    "url": "git+https://github.com/aobrador/IBMFSMX.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cwcoogan/IBMFSMX/issues"
+    "url": "https://github.com/aobrador/IBMFSMX/issues"
   },
-  
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -39,6 +40,7 @@
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
     "reactjs-popup": "^2.0.4",
     "src": "^1.1.2"
   },

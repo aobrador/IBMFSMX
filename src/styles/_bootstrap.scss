@@ -24,6 +24,10 @@ $theme-colors: (
 
 .nav-bar-logo {
   width: 100px;
+
+  &.ibmlogo{
+    background-image: url('/images/IBM_logo_pos_RGB.png');
+  }
 }
 
 .nav-link {
