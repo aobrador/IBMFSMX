@@ -23,7 +23,8 @@ const NoMatchPage = () => {
   );
 };
 
-const App = () => {
+class App extends React.Component {
+ render() {
   return (
     <UserProvider>
       <Router>
@@ -35,7 +36,7 @@ const App = () => {
           <Route path='/about'>
             <About />
           </Route>
-          <Route path='/installations'>
+          <Route path='/IBMFSMX/installations'>
             <Installations />
           </Route>
           <Route path='/connecting'>
@@ -56,6 +57,7 @@ const App = () => {
       </Router>
     </UserProvider>
   );
+ }
 };
 
 export default App;

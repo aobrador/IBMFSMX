@@ -59,7 +59,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to='/about' eventKey={1}>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to='/installations' eventKey={2}>
+            <Nav.Link as={Link} to='/IBMFSMX/installations' eventKey={2}>
               Installations
             </Nav.Link>
             <Nav.Link as={Link} to='/connecting' eventKey={3}>
