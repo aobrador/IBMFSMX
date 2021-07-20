@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Installations from './pages/Installations';
@@ -29,8 +28,7 @@ const App = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route basename="/IBMFSMX">
-            <Link to="/home"/>
+          <Route exact path='/'>
             <Home />
           </Route>
           <Route path='/about'>
