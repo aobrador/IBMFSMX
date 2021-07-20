@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
+import { HashRouter } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import { useAuth } from '../states/userState';
 import logoImg from '../images/IBM_logo_pos_RGB.png';
