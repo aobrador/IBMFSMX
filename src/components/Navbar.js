@@ -52,7 +52,7 @@ const NavBar = () => {
             activeKey={activeKey}
             onSelect={(selectedKey) => setActiveKey(selectedKey)}
           >
-            <Nav.Link as={Link} to='/home' eventKey={0}>
+            <Nav.Link basename="/IBMFSMX" as={Link} to='/home' eventKey={0}>
               Home
             </Nav.Link>
             <Nav.Link as={Link} to='/about' eventKey={1}>
